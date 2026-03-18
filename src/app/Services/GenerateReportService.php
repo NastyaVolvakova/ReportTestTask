@@ -4,8 +4,6 @@ namespace App\Services;
 
 use AllowDynamicProperties;
 use App\Repositories\PriceRepositoryInterface;
-use Carbon\Carbon;
-use Illuminate\Support\Facades\DB;
 
 #[AllowDynamicProperties] class GenerateReportService
 {
