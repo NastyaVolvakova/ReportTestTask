@@ -68,7 +68,6 @@
         </tbody>
     </table>
 
-    <!-- Пагинация -->
     <div class="d-flex justify-content-center">
         {{ $processes->links() }}
     </div>
